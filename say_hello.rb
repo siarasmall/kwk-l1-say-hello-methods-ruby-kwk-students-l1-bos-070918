@@ -2,7 +2,7 @@
 your_name= gets.chomp.capitalize
 my_name= gets.chomp.capitalize
 
-def say_hello(your_name= "Ruby programmer",my_name)
+def say_hello(your_name= "Ruby programmer")
   puts "Hello #{your_name}! I'm #{my_name}"
 end 
 say_hello(your_name,my_name)

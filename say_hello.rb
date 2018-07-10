@@ -1,5 +1,6 @@
-# Build your say_hello method here
+# definition for say_hello method
+your_name= gets.chomp
 def say_hello(your_name)
   puts "Hello #{your_name}!"
 end 
-say_hello(gets.chomp)
+say_hello(your_name)
